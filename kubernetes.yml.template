@@ -11,7 +11,7 @@ spec:
       app: twitter-feed
   template:
     metadata:
-      labels:
+      labels: 
         app: twitter-feed
         commit: ${WERCKER_GIT_COMMIT}
     spec:
