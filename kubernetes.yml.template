@@ -26,7 +26,7 @@ spec:
       imagePullSecrets:
         - name: wercker
 ---
-apiVersion: apps/v1beta1
+apiVersion: extensions/v1beta1
 kind: Service
 metadata:
   name: twitter-feed
